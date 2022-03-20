@@ -1,0 +1,173 @@
+doctype html
+html(lang="en")
+    head
+        title 112organic
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(name="keywords" content="")
+        meta(name="description", content="")
+        meta(name="format-detection", content="", telephone="no")
+        // favicon
+
+        link(rel="icon" type="image/png" href="" sizes="16x16")
+        link(rel="icon" type="image/png" href="" sizes="32x32")
+        link(rel="icon" type="image/png" href="" sizes="96x96")
+        link(rel="apple-touch-icon" sizes="152x152" href="")
+        //favicon 
+
+        link(href="css/application.css" rel="stylesheet")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        script(src="https://code.jquery.com/jquery-3.6.0.min.js")
+    body 
+        // Begin header 
+        header.header-line-bottom
+            div.container.header
+                div.row
+                    div.col-4.col-md-3.logo
+                        a(href="index.html")
+                            img.header__logo(src="img/logo.jpg", alt="Logo")
+                        
+                    div.col-8.header__navigation.container.text-SSaSb
+                        div.row
+                            |
+                            |
+                            a.col-2.header__navigation_first(href="cataloge.html") 
+                                b КАТАЛОГ
+                            |
+                            | 
+                            a.col-3(href="aboutcomp.html")
+                                b О  КОМПАНИИ
+                            |
+                            |
+                            a.col-3(href="cart.html")
+                                b ГДЕ КУПИТЬ
+                            |
+                            |
+                            a.col-2(href="cart.html")
+                                b ОТЗЫВЫ
+                            |
+                            | 
+                            a.col-2(href="aboutcomp.html")
+                                b.header__navigation-last  КОНТАКТЫ
+                .header-burger
+                    span
+                .header__burger_menu.text-SSaSb
+                    a.drop-down-menu(href="cataloge.html") 
+                        b КАТАЛОГ
+                    
+                    a.drop-down-menu(href="aboutcomp.html")
+                        b О  КОМПАНИИ
+                    
+                    a.drop-down-menu(href="cart.html")
+                        b ГДЕ КУПИТЬ
+                    
+                    a.drop-down-menu(href="cart.html")
+                        b ОТЗЫВЫ
+                    
+                    a.drop-down-menu(href="aboutcomp.html")
+                        b  КОНТАКТЫ        
+        main
+            .container 
+                .row
+                    .col.links 
+                        a.text-SSaR(href="") Главная
+                        a.text-SSaR(href="") | Контакты
+            .container
+                .d-flex.flex-column.flex-sm-column.flex-md-row.flex-lg-row
+                    .col.col-xs-12.col-sm-12.col-md-6(style="margin-right:-15px;")
+                        .header-line-bottom.contacts.text-SSaR.contacts-block(style="font-size:36px;" ) Контакты 
+                        .contact-info
+                            .col.col-sm-8
+                                p.content_head.text-SSaR 
+                                    | Наш адрес
+                                    br
+                                    |105082, РФ, г. Москва,          
+                                    br
+                                    |Переведеновский пер., д.13, стр. 23, пом. 3
+                                    br
+                                    br
+                                    |Телефон: +7 (495) 973-1-112
+                                    br
+                                    br
+                                    |Отзывы по продукции и пожелания 
+                                    |просим направлять наш 
+                                span.text-SSaREn e-mail: info@112organic.ru 
+                    .col.col-xs-12.col-sm-12.col-md-6(style="margin-left:-15px;")
+                        .header-line-bottom.contacts.text-SSaR.contacts-block(style="font-size:36px;") Обратная связь                
+                        .col.col-sm-8
+                            form.form(autocomplete="off" action='email.php' method='post')
+                                .about-you
+                                    div.form-lines-bottom 
+                                        label.text-SSaR(for="") Представьтесь                          
+                                        input.text-SSaR(type="text" name='username' required)
+                                    div.form-lines-bottom
+                                        label.text-SSaR(for="") Контактный телефон                          
+                                        input.text-SSaR(type="text" name='usernimber' required)
+                                    div.form-lines-bottom
+                                        label.text-SSaREn(for="") E-mail                          
+                                        input.text-SSaR(type="text" name='username' required)
+                                    div.form-lines-bottom
+                                        label.text-SSaR(for="") Текст сообщения                          
+                                        input.text-SSaR(type="text" name='username' required)
+                                    input.text-SSaR(type="submit" value="")
+                                    div
+                                        button.text-SSaSb.form-btn-send(type="submit") ОТПРАВИТЬ 
+                      
+            .container 
+                .row
+                    //.col-1
+                    .col-12.map            
+                        iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d667.0736086952448!2d37.68996306220797!3d55.780053484141334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b53579857b8d35%3A0x6f6b8de15cb6d753!2z0J_QtdGA0LXQstC10LTQtdC90L7QstGB0LrQuNC5INC_0LXRgC4sIDEzLCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTA1MDgy!5e0!3m2!1sru!2sby!4v1645472747187!5m2!1sru!2sby" width="100%" height="460" style="border:0;" allowfullscreen="" loading="lazy" )
+                    //.col-1
+        footer    
+            .container
+                .d-flex.flex-column.flex-sm-column.flex-md-column.flex-lg-row.justify-content-center.justify-content-sm-center.justify-content-md-center
+                    .col
+                        .container 
+                            .d-flex.flex-column.justify-content-center.our-inform
+                                p.text-SSaR 
+                                    | Наш адрес: 105082, РФ, г. Москва, 
+                                    br
+                                    | Переведеновский пер., д.13, стр. 23, пом. 3
+                                    br 
+                                    | 
+                                    br
+                                    | Тел.: 7 (495) 973-1-112
+                                .text-SSaREn Email: 
+                                    span info@112organic.ru 
+                    .col.footer_menu
+                        .container
+                            .d-flex.flex-column.justify-content-center.justify-content-sm-center.justify-content-md-end.justify-content-xl-end
+                                p.text-SSaSb Каталог продукции                        
+                                p.text-SSaSb О компании 
+                                p.text-SSaSb Где купить 
+                                p.text-SSaSb Отзывы
+                                p.text-SSaSb Контакты  
+                    .col
+                        .container
+                            .d-flex.flex-column
+                                p.text-SSaSb Мы в социальных сетях 
+                                .container
+                                    .d-flex
+                                        a
+                                            img.col.social-networks(src="img/SocialNetworks/facebook.jpg" alt="")
+                                        a
+                                            img.col.social-networks(src="img/SocialNetworks/instagram.jpg" alt="") 
+                                        a
+                                            img.col.social-networks(src="img/SocialNetworks/telegram.jpg" alt="")  
+                                        a
+                                            img.col.social-networks(src="img/SocialNetworks/vk.jpg" alt="")  
+                                        a
+                                            img.col.social-networks(src="img/SocialNetworks/youtube.jpg" alt="")
+            .container
+                .row.row-cols-2.creation
+                    .col.col-sm-7.col-md-8.text-SSaR © 2019 - 2022 г. 112 Органик 
+                   
+                    .col.col-sm-4.col-md-4
+                        .text-SSaR.site-creation(style="color:#018D3C;") Создание сайта 
+                        .text-SSaREn.site LogicStudio.Ru 
+                            
+    script(src="js/application.js")
+            

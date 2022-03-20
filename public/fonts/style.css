@@ -1,0 +1,38 @@
+@font-face {
+	font-family: 'Conv_SourceSansPro-Regular';
+	src: url('fonts/SourceSansPro-Regular.eot');
+	src: local('☺'), url('fonts/SourceSansPro-Regular.woff') format('woff'), url('fonts/SourceSansPro-Regular.ttf') format('truetype'), url('fonts/SourceSansPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_SourceSansPro-Semibold';
+	src: url('fonts/SourceSansPro-Semibold.eot');
+	src: local('☺'), url('fonts/SourceSansPro-Semibold.woff') format('woff'), url('fonts/SourceSansPro-Semibold.ttf') format('truetype'), url('fonts/SourceSansPro-Semibold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_SourceSerifPro-LightIt';
+	src: url('fonts/SourceSerifPro-LightIt.eot');
+	src: local('☺'), url('fonts/SourceSerifPro-LightIt.woff') format('woff'), url('fonts/SourceSerifPro-LightIt.ttf') format('truetype'), url('fonts/SourceSerifPro-LightIt.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_SourceSerifPro-Regular';
+	src: url('fonts/SourceSerifPro-Regular.eot');
+	src: local('☺'), url('fonts/SourceSerifPro-Regular.woff') format('woff'), url('fonts/SourceSerifPro-Regular.ttf') format('truetype'), url('fonts/SourceSerifPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_SourceSerifPro-Semibold';
+	src: url('fonts/SourceSerifPro-Semibold.eot');
+	src: local('☺'), url('fonts/SourceSerifPro-Semibold.woff') format('woff'), url('fonts/SourceSerifPro-Semibold.ttf') format('truetype'), url('fonts/SourceSerifPro-Semibold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+

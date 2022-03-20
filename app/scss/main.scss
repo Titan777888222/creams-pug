@@ -1,0 +1,415 @@
+@charset "UTF-8";
+
+/*!
+ * Bootstrap Grid v4.5.3 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+$seria:#444444;
+$greyD:#333333;
+$italicGL:#666666;
+$greyL:#707070;
+$greyLs:#999999;
+$bord:#DE1921;
+$modif:#018D3C;
+$green2:#018D3C;
+$line:#00FFFF;
+$backgcblock:#FAF7F7; 
+
+$bl: block;
+
+
+ html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+@import
+  "grid/functions",
+  "grid/variables";
+
+@import
+  "grid/mixins/breakpoints",
+  "grid/mixins/grid-framework",
+  "grid/mixins/grid";
+
+@import
+  "grid/grid",
+  "grid/utilities/display",
+  "grid/utilities/flex",
+  "grid/utilities/spacing";  
+
+// 1. Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
+
+// 2. Vendors
+@import
+  'vendors/normalize';
+
+// 3. Base stuff
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography',
+  'base/helpers';
+
+// 4. Layout-related sections
+@import
+  'layout/header',
+  'layout/footer';
+
+// 5. Components
+@import
+  'components/button';
+
+// 6. Page-specific styles
+@import
+  'pages/home';
+
+// 7. Themes
+@import
+  'themes/default';
+
+  .links, .cataloge-head{
+    padding-left: 0;
+    a.text-SSaR{
+      font-size: 16px;
+      color: $greyL;
+      text-decoration: none;
+    }
+  }
+  .cataloge-head{
+    margin: 10px 0 36px 0;
+  }
+
+.slider{
+  position: relative;
+  margin: 5% 9% 5% 9%;  
+ 
+  img {
+    width: 100%;
+    height: 600px;
+  }
+  
+}
+.slider__advertising{
+  position: absolute;
+  margin-top: -530px;  
+  margin-left: 61%;
+  width: 25%;
+  
+  .text-SSaR{ 
+  font-size: 40px;
+  line-height: 50px;
+  }
+  .text-SSaI{
+      font-size: 20px ;
+    }
+  
+  .btn{
+    margin-top: 71px;
+  }  
+}
+.col-8{
+  padding-left: 0px;
+}
+.cataloge, .title-ingredients{
+  font-size: 32px;
+ 
+}
+
+
+.cataloge-slider-arrow{
+  div.col{    
+    padding-right: 0;
+  }
+} 
+
+.products{
+  margin: 30px 0px 42px 0px;
+  width: 100%;
+  .products__block{
+    div.col-3{
+      padding-left: 0;
+      .creams{
+        width: 150/1798*100;      
+        .text-SSaSb{
+          font-size: 18px;
+          line-height: 26px;
+        }
+        .text-SSaI{
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+  
+  
+}
+.content{
+  margin-top: 60px;
+  .col{
+    width: 600px;
+    height: 469px;
+    background-color: #FAF7F7;
+      .col-12{
+        margin-top: 0.5% ;
+        margin-left: 5%;
+        p.content_head{
+          line-height: 44px;
+          font-size: 32px;
+          width: 80%;
+        }
+        .content_bottom{
+          line-height: 28px;
+          font-size: 18px;
+          padding-right: 10%;
+          width: 80%;
+          height: 191px;
+          overflow: hidden;
+        }
+    }
+    .details{
+      margin-left: 8%;
+      margin-top: 19px;
+      font-size: 16px;
+      
+      .col-3{
+        padding-right: 0;
+        a{
+          color: #018D3C;
+          text-decoration: none;
+        }
+        
+      }
+      .col-9{
+        margin-top: 22px;
+        padding-left: 0;
+      }
+  }
+    
+ 
+  }
+
+}
+
+div.col.quick-help{
+  padding: 1% 0 0 5%;
+  background-color: $backgcblock;
+  .text-SSaR.title{
+  color: $greyD;
+  font-size: 32px;
+  }
+  .title-bottom{
+    color: $italicGL;
+    font-size: 18px;
+  }
+  .text-SSaR.text{
+   color: $seria;
+   font-size: 18px;
+   line-height: 28px;
+   
+  }
+  p.title-bottom-cataloge{
+    padding-top: 7px;
+  }
+  p.text-cataloge{
+   padding-top: 10px; 
+   color: $seria;
+   font-size: 16px;
+   line-height: 28px;
+
+  }
+  
+}
+
+.main-line-bottom{
+  border-bottom: 0.5px solid $greyL;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  
+}
+.ingredients{
+  margin-top: 20px;
+  height: 140px;
+  width:320px;
+	overflow: auto;
+}
+.composition{
+  p.text,
+  p.mode-application{
+  overflow: auto;
+  height: 172px;
+  }
+
+}
+
+.mode-application-title,
+.composition-title{
+  font-size: 28px;
+}
+
+  .contacts{
+    margin-bottom: 10px;
+    
+    .header-line-bottom.contacts.text-SSaR.contacts-block{
+    font-size: 32px;
+    }
+  }
+  .contact-info{
+    margin-bottom: 82px;
+
+}
+/* .social-networks{
+  img{
+   width: 50px;
+   height: 50px;
+  }
+} */
+.about-you{
+  .form-lines-bottom{
+    border-bottom: 1px solid $green2;
+    margin-bottom: 36px;
+    padding-bottom: 18px;
+    opacity: 50%;
+  }
+  .form-btn-send{
+    width: 211px;
+    height: 58px;
+    border: 2px solid $green2;
+    text-align: center;
+    font-size: 16px;
+    color: $greyD;
+    margin-bottom: 20px;
+  }
+}
+@media(max-width: 1200px){
+  
+	.img-ingredients{
+	
+	height: 60px;	
+	}
+} 
+@media(max-width: 992px){
+
+  .slider{
+    img {
+      height: 400px;
+    }    
+  }
+  .slider__advertising{
+    display: none;
+  }
+  
+  .move-arrow-block{
+    display: none;
+  }
+  .title-ingredients{
+    margin-bottom: 30px;
+  }
+	.img-ingredients{	
+	height: 40px;	
+	}
+  .quick-help{
+    font-size: 25px;
+  }
+  .ingredients{
+    
+    height: 140px;
+    width:400px;
+    
+  }
+  .title{
+    .text-SSaR{
+    line-height: 45px;
+    }
+  }
+  .secret-nature-img{
+    display: none;
+  }
+}
+@media(max-width: 768px){
+
+  .slider{
+    img {
+      height: 280px;
+    }    
+  }
+  .cataloge{
+    margin-top: 20px;
+  }
+
+	.img-ingredients{
+	
+	height: 65px;	
+	}
+  .title{
+    .text-SSaR{
+    line-height: 45px;
+    }
+  }
+  .flex-sm-colomn{
+    height: 400px;
+  }
+  .ingredients{
+    
+    height: 140px;
+    width:380px;
+    
+  }
+
+} 
+@media(max-width: 577px){
+  .col{
+    margin-left: 0;
+  }
+  .col-sm-12{
+    left: 100px;
+  }
+  .ingredients{
+    
+    height: 140px;
+    width:360px;
+    
+  }
+	/* .img-ingredients{
+	
+	height: 85px;	
+  width: 85px;
+	} */
+
+} 
+@media(max-width: 576px){
+  .slider{
+    img {
+      height: 230px;
+    }    
+  }
+}
+@media(max-width: 420px){
+  .slider{
+    img {
+      height: 150px;
+    }    
+  }
+	.img-ingredients{
+	
+	height: 20px;	
+	}
+  .ingredients{
+    width: 280px;
+  }
+} 
+// Проба кода

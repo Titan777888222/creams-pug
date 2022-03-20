@@ -1,0 +1,118 @@
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+
+
+//FONT SourceSansPro
+@font-face {
+	font-family:'Source Sans Pro Regular';
+	src: url('/app/assets/fonts/SourceSansPro-Regular.eot');
+	src: local('☺'), url('/app/assets/fonts/SourceSansPro-Regular.woff') format('woff'), url('/app/assets/fonts/SourceSansPro-Bold.woff2') format('woff2'), url('/app/assets/fonts/SourceSansPro-Regular.ttf') format('truetype'), url('/app/assets/fonts/SourceSansPro-Regular.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family:'Source Sans Pro Semibold';
+	src: url('/app/assets/fonts/SourceSansPro-Semibold.eot');
+	src: local('☺'), url('/app/assets/fonts/SourceSansPro-Semibold.woff') format('woff'), url('/app/assets/fonts/SourceSansPro-Semibold.ttf') format('truetype'), url('/app/assets/fonts/SourceSansPro-Semibold.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family:'Source Sans Pro Italic';
+	src: url('/app/assets/fonts/SourceSansPro-ExtraLightItalic.eot');
+	src: local('☺'), url('/app/assets/fonts/SourceSansPro-ExtraLightItalic.woff') format('woff'), url('/app/assets/fonts/SourceSansPro-ExtraLightItalic.woff2') format('woff2'),url('/app/assets/fonts/SourceSansPro-ExtraLightItalic.ttf') format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family:'Source Sans Pro Bold';
+	src: url('/app/assets/fonts/SourceSansPro-Bold.eot');
+	src: local('☺'), url('/app/assets/fonts/SourceSansPro-Bold.woff') format('woff'), url('/app/assets/fonts/SourceSansPro-Bold.woff2') format('woff2'),url('/app/assets/fonts/SourceSansPro-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Source Sans Pro Regular EN';
+	src: url('/app/assets/fonts/SourceSansPro-RegularEn.eot');
+	src: local('☺'), url('/app/assets/fonts/SourceSansPro-RegularEn.woff2') format('woff2'), url('/app/assets/fonts/SourceSansPro-RegularEn.woff') format('woff'), url('/app/assets/fonts/SourceSansPro-RegularEn.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+//FONT SourceSerifPro
+/* @font-face {
+	font-family: 'Source Serif Pro';
+	src: url('/app/assets/fonts/SourceSerifPro-LightIt.eot');
+	src: local('☺'), url('/app/assets/fonts/SourceSerifPro-LightIt.woff') format('woff'), url('/app/assets/fonts/SourceSerifPro-LightIt.ttf') format('truetype'), url('/app/assets/fonts/SourceSerifPro-LightIt.svg') format('svg');
+	font-weight: 300;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Source Serif Pro Regular';
+	src: url('/app/assets/fonts/SourceSerifPro-Regular.eot');
+	src: local('☺'), url('/app/assets/fonts/SourceSerifPro-Regular.woff') format('woff'), url('/app/assets/fonts/SourceSerifPro-Regular.woff2') format('woff2'), url('/app/assets/fonts/SourceSerifPro-Regular.ttf') format('truetype'), url('/app/assets/fonts/SourceSerifPro-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Source Serif Pro';
+	src: url('/app/assets/fonts/SourceSerifPro-Semibold.eot');
+	src: local('☺'), url('/app/assets/fonts/SourceSerifPro-Semibold.woff') format('woff'), url('/app/assets/fonts/SourceSerifPro-Semibold.ttf') format('truetype'), url('/app/assets/fonts/SourceSerifPro-Semibold.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+} */
+
+//FONT Sans Pro
+
+.text-SSaSb{
+  font-family: 'Source Sans Pro Semibold';
+  font-weight: 600;
+  font-style: normal;
+  
+}
+.text-SSaR{
+  font-family: 'Source Sans Pro Regular';
+  font-weight: 600px;
+  font-style: normal;
+  
+}
+.text-SSaI{
+	font-family: 'Source Sans Pro Italic';
+	font-weight: 300px;
+	font-style: italic;
+	
+  }
+.text-SSaB{
+	font-family: 'Source Sans Pro Bold';
+	font-weight: 700px;
+	font-style: normal;
+	
+  }
+  .text-SSaREn{
+	font-family: 'Source Sans Pro Regular EN';
+	font-weight: 400px;
+	font-style: normal;
+	
+  }
+
+
+//FONT Sans Serif Pro
+
+/* .text-SSeSb{
+  font-family: 'Source Serif Pro';
+  font-weight: 700;
+  font-style: 40px;
+ }
+.text-SSeR{
+  font-family: 'Source Serif Pro Regular';
+  font-weight: 400;
+  font-size: 40px;    
+  }
+.text-SSeL{
+  font-family: 'Source Serif Pro';
+  font-weight: 300;
+  font-style: italic;
+  font-style: 40px;   
+  } 
+ */

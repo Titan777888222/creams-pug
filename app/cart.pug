@@ -1,0 +1,240 @@
+doctype html
+html(lang="en")
+    head
+        title 112organic
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(name="keywords" content="")
+        meta(name="description", content="")
+        meta(name="format-detection", content="", telephone="no")
+        // favicon
+
+        link(rel="icon" type="image/png" href="" sizes="16x16")
+        link(rel="icon" type="image/png" href="" sizes="32x32")
+        link(rel="icon" type="image/png" href="" sizes="96x96")
+        link(rel="apple-touch-icon" sizes="152x152" href="")
+        //favicon 
+
+        link(href="css/application.css" rel="stylesheet")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        script(src="https://code.jquery.com/jquery-3.6.0.min.js")
+    body 
+        // Begin header 
+        header.header-line-bottom
+            div.container.header
+                div.row
+                    div.col-4.col-md-3.logo
+                        a(href="index.html")
+                            img.header__logo(src="img/logo.jpg", alt="Logo")
+                        
+                    div.col-8.header__navigation.container.text-SSaSb
+                        div.row
+                            |
+                            |
+                            a.col-2.header__navigation_first(href="cataloge.html") 
+                                b КАТАЛОГ
+                            |
+                            | 
+                            a.col-3(href="aboutcomp.html")
+                                b О  КОМПАНИИ
+                            |
+                            |
+                            a.col-3(href="cart.html")
+                                b ГДЕ КУПИТЬ
+                            |
+                            |
+                            a.col-2(href="cart.html")
+                                b ОТЗЫВЫ
+                            |
+                            | 
+                            a.col-2(href="aboutcomp.html")
+                                b.header__navigation-last  КОНТАКТЫ
+                .header-burger
+                    span
+                .header__burger_menu.text-SSaSb
+                    a.drop-down-menu(href="cataloge.html") 
+                        b КАТАЛОГ
+                    
+                    a.drop-down-menu(href="aboutcomp.html")
+                        b О  КОМПАНИИ
+                    
+                    a.drop-down-menu(href="cart.html")
+                        b ГДЕ КУПИТЬ
+                    
+                    a.drop-down-menu(href="cart.html")
+                        b ОТЗЫВЫ
+                    
+                    a.drop-down-menu(href="aboutcomp.html")
+                        b  КОНТАКТЫ        
+
+        main.main-line-bottom
+            .container 
+                .row
+                    .col-12.links 
+                        a.text-SSaR(href="") Главная
+                        a.text-SSaR(href="") | Каталог 
+                        a.text-SSaR(href="") | Гель двойного действия охлаждающе-разогревающий 
+            div.products
+                .container    
+                    .d-flex.flex-column.flex-sm-column.flex-md-column.flex-lg-row.align-items-center.align-items-sm-center.align-items-md-center
+                        .col.container
+                            .row.creams
+                                .col-12 
+                                    img(src="img/Products/Gel_oxlag_razogrev_500x500.jpg")
+                            .row
+                                .col-12.container
+                                    .row
+                                        .col-2
+                                        .col-10.container
+                                            .row
+                                                .col-3
+                                                    img.products__img-small-left(src="img/Products/Gel_oxlag_razogrev_78x78.jpg")
+                                                
+                                                .col-3
+                                                    img.products__img-small-center(src="img/Products/Gel_oxlag_razogrev_78x78.jpg")
+                                                
+                                                .col-3
+                                                    img.products__img-small-right(src="img/Products/Gel_oxlag_razogrev_78x78.jpg")
+                                                .col-3    
+                        .col.quick-help            
+                            p.text-SSaR.title Гель двойного действия 
+                                br
+                                |охлаждающе-разогревающий   
+                            p.text-SSaI.title-bottom-cataloge При напряжении и усталости в мышцах 
+                            p.text-SSaR.text-cataloge Гель обладает уникальным двойным действием. При нанесении на кожу оказывает первоначальное охлаждающее, а затем разогревающее действие, обеспечивает гармоничность процессов тонизирования и успокоения. 
+                                br
+                                br
+                                |Действие геля направлено на профилактику дискомфорта в области суставов и мышц после физических перегрузок. 
+                                br
+                                br
+                                |Фитокомплекс растительных экстрактов и эфирных масел стимулирует микроциркуляцию и обменные процессы в коже, обладает регенерирующим и антиоксидантным действиями. Эффективен при напряжении и усталости в мышцах.
+                        
+            .container
+                .row.cataloge-slider-arrow
+                    .col.title-ingredients.text-SSaR Ингридиенты 
+            .main-line-bottom
+                .container
+                    .d-flex.flex-column.flex-xs-column.flex-sm-column.flex-md-column.align-items-center.align-items-sm-center.align-items-md-center.flex-lg-row.justify-content-lg-around.gy-5
+                        img(src="img/Ingredients/mentol.jpg" alt="" style="width: 85px; height: 85px;")
+                        .ingredients.text-SSaR
+                            span.text-SSaB Ментол 
+                            |обладает выраженным охлаждающим и местно отвлекающим действиями. 
+                        img(src="img/Ingredients/red_pepper_extract.jpg" alt="" style="width: 85px; height: 85px;")
+                        .ingredients.text-SSaR 
+                            span.text-SSaB Экстракт 
+                            |красного перца обеспечивает прилив крови в месте нанесения, способствует усилению обменных процессов, повышает тонус кожи, смягчает болевые синдромы в мышцах и суставах. 
+                    .d-flex.flex-column.flex-xs-column.align-items-center.flex-sm-column.align-items-sm-center.flex-md-column.align-items-md-center.flex-lg-row.justify-content-lg-around.gy-5
+                        img(src="img/Ingredients/eucalyptus_oil.jpg" alt="" style="width: 85px; height: 85px;")
+                        .ingredients.text-SSaR
+                            span.text-SSaB Масло эвкалипта эфирное 
+                            |обладает противовоспалительным, бактерицидным, местным анестезирующим и тонизирующим свойствами. 
+                        img(src="img/Ingredients/juniper_oil.jpg" alt="" style="width: 85px; height: 85px;")
+                        .ingredients.text-SSaR 
+                            span.text-SSaB Масло можжевельника эфирное 
+                            |обладает противовоспалительным и болеутоляющим действиями. 
+            .container.main-line-bottom
+                .row
+                    .col.text-SSaR.composition  
+                        p.mode-application-title Способ применения
+                        p.mode-application Eжедневно 1-2 раза в день небольшое количество геля втирать в кожу
+                            br
+                            |тела по мере необходимости легкими массажными движениями до 
+                            br
+                            |полного впитывания.
+                            br
+                            br
+                            |Предупреждение: не допускать попадания геля на слизистые 
+                            br
+                            |оболочки или повреждённую кожу.
+                            br
+                            br
+                            |После применения следует тщательно вымыть руки с мылом.
+
+                    .col.text-SSaR.composition 
+                        p.composition-title Состав
+                        p.text Вода очищенная, ментол, ПЭГ-400, камфора, желчь, экстракт красного 
+                            br
+                            |перца, экстракт прополиса, экстракт арники, экстракт пихты, эфирное 
+                            br
+                            |масло эвкалипта, эфирное масло гвоздики, эфирное масло 
+                            br
+                            |можжевельника, ПЭГ-40 гидрогенизированное касторовое масло, 
+                            br
+                            |карбомер, триэтаноламин, бензиловый спирт, метилхлороизотиазолинон, 
+                            br
+                            |метилизотиазолинон. 
+                            br
+                            |Не тестировалось на животных
+                            br
+                            | Объем: 75 мл
+                            br
+                            | Срок хранения: 36 месяцев
+                            br
+                            |ГОСТ 31695-2012
+                            br
+                            |Хранить при температуре не ниже 0º С и не выше 25º С                                  
+            .container
+                .row
+                    .col-12.text-SSaR
+                        p Объем: 75 мл
+                            br
+                            br
+                            | Срок хранения: 36 месяцев
+                            br
+                            |ГОСТ 31695-2012
+                            br
+                            br
+                            |Хранить при температуре не ниже 0º С и не выше 25º С                                  
+        footer    
+            .container
+                .d-flex.flex-column.flex-sm-column.flex-md-column.flex-lg-row.justify-content-center.justify-content-sm-center.justify-content-md-center
+                    .col
+                        .container 
+                            .d-flex.flex-column.justify-content-center.our-inform
+                                p.text-SSaR 
+                                    | Наш адрес: 105082, РФ, г. Москва, 
+                                    br
+                                    | Переведеновский пер., д.13, стр. 23, пом. 3
+                                    br 
+                                    | 
+                                    br
+                                    | Тел.: 7 (495) 973-1-112
+                                .text-SSaREn Email: 
+                                    span info@112organic.ru 
+                    .col.footer_menu
+                        .container
+                            .d-flex.flex-column.justify-content-center.justify-content-sm-center.justify-content-md-end.justify-content-xl-end
+                                p.text-SSaSb Каталог продукции                        
+                                p.text-SSaSb О компании 
+                                p.text-SSaSb Где купить 
+                                p.text-SSaSb Отзывы
+                                p.text-SSaSb Контакты  
+                    .col
+                        .container
+                            .d-flex.flex-column
+                                p.text-SSaSb Мы в социальных сетях 
+                                .container
+                                    .d-flex
+                                        a
+                                            img.col.social-networks(src="img/SocialNetworks/facebook.jpg" alt="")
+                                        a
+                                            img.col.social-networks(src="img/SocialNetworks/instagram.jpg" alt="") 
+                                        a
+                                            img.col.social-networks(src="img/SocialNetworks/telegram.jpg" alt="")  
+                                        a
+                                            img.col.social-networks(src="img/SocialNetworks/vk.jpg" alt="")  
+                                        a
+                                            img.col.social-networks(src="img/SocialNetworks/youtube.jpg" alt="")
+            .container
+                .row.row-cols-2.creation
+                    .col.col-sm-7.col-md-8.text-SSaR © 2019 - 2022 г. 112 Органик 
+                   
+                    .col.col-sm-4.col-md-4
+                        .text-SSaR.site-creation(style="color:#018D3C;") Создание сайта 
+                        .text-SSaREn.site LogicStudio.Ru 
+  
+    script(src="js/application.js")
+        
+            
