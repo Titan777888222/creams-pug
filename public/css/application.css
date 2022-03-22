@@ -3297,6 +3297,32 @@ div.col.our-inform {
   .slider__advertising .btn {
     margin-top: 71px; }
 
+.viewModal {
+  margin-top: 30px; }
+
+.modal {
+  background: #FAF7F7;
+  border: 2px solid #DE1921;
+  border-radius: 5px; }
+
+.modal p {
+  margin: 0 auto;
+  padding: 10px; }
+  .modal p img {
+    padding: 10px; }
+  .modal p p {
+    padding: 10px; }
+
+.closeMe {
+  margin: 5px 5px 0 0;
+  border-radius: 50%;
+  border: 0.5px solid #DE1921;
+  width: 15px;
+  height: 15px;
+  background-color: #444444;
+  color: #FAF7F7;
+  font-size: 10px; }
+
 .col-8 {
   padding-left: 0px; }
 
@@ -3402,12 +3428,6 @@ div.col.quick-help {
 .contact-info {
   margin-bottom: 82px; }
 
-/* .social-networks{
-  img{
-   width: 50px;
-   height: 50px;
-  }
-} */
 .about-you .form-lines-bottom {
   border-bottom: 1px solid #018D3C;
   margin-bottom: 36px;
