@@ -9,11 +9,6 @@
     <meta name="description" content="">
     <meta name="format-detection" content="" telephone="no">
     <!-- favicon-->
-    <link rel="icon" type="image/png" href="" sizes="16x16">
-    <link rel="icon" type="image/png" href="" sizes="32x32">
-    <link rel="icon" type="image/png" href="" sizes="96x96">
-    <link rel="apple-touch-icon" sizes="152x152" href="">
-    <!--favicon -->
     <link href="css/application.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +23,7 @@
           <div class="col-8 header__navigation container text-SSaSb">
             <div class="row">
               
-              <a class="col-2 header__navigation_first" href="cataloge.html"> <b>КАТАЛОГ</b></a>
+              <a class="col-2 header__navigation_first" href=""> <b>КАТАЛОГ</b></a>
                <a class="col-3" href="aboutcomp.html"><b>О  КОМПАНИИ</b></a>
               <a class="col-3" href="cart.html"><b>ГДЕ КУПИТЬ</b></a>
               <a class="col-2" href="cart.html"><b>ОТЗЫВЫ</b></a>
@@ -40,37 +35,54 @@
         <div class="header__burger_menu text-SSaSb"><a class="drop-down-menu" href="cataloge.html"> <b>КАТАЛОГ</b></a><a class="drop-down-menu" href="aboutcomp.html"><b>О  КОМПАНИИ</b></a><a class="drop-down-menu" href="cart.html"><b>ГДЕ КУПИТЬ</b></a><a class="drop-down-menu" href="cart.html"><b>ОТЗЫВЫ</b></a><a class="drop-down-menu" href="aboutcomp.html"><b> КОНТАКТЫ        </b></a></div>
       </div>
     </header>
-    <main>
-      <center> 
-        <div class="slider"><img src="img/img_slid_1.jpg" alt="img_slid_1">
-          <div class="slider__advertising">
-            <p class="text-SSaR">
-               Интенсивный 
-              
-              антицеллюлитный
-               
-              крем для тела 
-            </p>
-            <div class="text-SSaI">С эфирным маслом грейпфрута</div><a href="cart.html"> 
-              <button class="btn text-SSaSb viewModal">ПОДРОБНЕЕ</button></a>
-            <div class="modal" id="modal" style="display:none;width:30%;...">
-              <button class="closeMe" style="float:right">X</button>
-              <p>
-                <p><img src="img/pose-vernis-mains-pieds.jpg" alt=""></p>
-                <p class="text-SSaR">Именно этот принцип лежит в основе серии. Быстрая помощь 112. <br>Уникальные растения, настоящие сокровища Алтайской природы, <br>веками использовались для сохранения здоровья, молодости, <br>красоты и долголетия. Сочетая в себе научный подход с <br>традиционными рецептами, продукты серии обеспечивают высокую эффективность и видимый <br>результат!</p>
-              </p>
-            </div>
-          </div>
+    <main class="main-line-bottom">
+      <div class="container"> 
+        <div class="row">
+          <div class="col-12 links"> <a class="text-SSaR" href="">Главная</a><a class="text-SSaR" href="">| Каталог </a></div>
         </div>
-      </center>
+      </div>
       <div class="container">
-        <div class="d-flex flex-column-reverse flex-sm-column-reverse flex-md-row flex-lg-row justify-content-center justify-content-sm-center justify-content-md-center cataloge-slider-arrow">
-          <div class="col cataloge text-SSaR">Каталог продукции </div>
-          <div class="col move-arrow-block"></div>
-          <div class="col">
-            <div class="container">
-              <div class="d-flex">
-                <div class="col move-arrow-block"></div><a class="col" href=""> <img src="img/arrow_left.jpg"></a><a class="col" href=""> <img src="img/arrow_wright.jpg"></a>
+        <div class="row">
+          <div class="col d-flex justify-content-center justify-content-sm-center justify-content-md-start cataloge text-SSaR cataloge-head">Каталог продукции  </div>
+        </div>
+      </div>
+      <div class="products">
+        <div class="container">   
+          <div class="d-flex flex-column flex-sm-column flex-md-column align-items-center align-items-sm-center align-items-md-center flex-lg-row products__block">
+            <div class="col">
+              <div class="creams">
+                <center><a href=""> <img src="img/Products/Bals_massag_270x268.jpg"></a></center>
+                <center>
+                  <p class="text-SSaSb">Бальзам для массажа тела </p>
+                  <p class="text-SSaI">Cнимает напряжение, устраняет скованность движений  </p>
+                </center>
+              </div>
+            </div>
+            <div class="col">
+              <div class="creams">
+                <center><a href=""> <img src="img/Products/Gel_oxlag_razogrev_270x268.jpg"></a></center>
+                <center>
+                  <p class="text-SSaSb">Гель двойного действия охлаждающе-разогревающий  </p>
+                  <p class="text-SSaI">При напряжении и усталости в мышцах </p>
+                </center>
+              </div>
+            </div>
+            <div class="col">
+              <div class="creams">                       
+                <center><a href=""> <img src="img/Products/gel_trokserutin_270x268.jpg"></a></center>
+                <center>
+                  <p class="text-SSaSb">Гель для ног с троксерутином  </p>
+                  <p class="text-SSaI">При отечности и усталости ног</p>
+                </center>
+              </div>
+            </div>
+            <div class="col">
+              <div class="creams">                       
+                <center><a href=""> <img src="img/Products/krem_anticell_270x268.jpg"></a></center>
+                <center>
+                  <p class="text-SSaSb">Интенсивный антицеллюлитный крем для тела </p>
+                  <p class="text-SSaI">C эфирным маслом грейпфрута</p>
+                </center>
               </div>
             </div>
           </div>
@@ -118,59 +130,28 @@
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">                 
-            <center><a href="cataloge.html"> 
-                <button class="text-SSaSb btn">ВЕСЬ КАТАЛОГ </button></a></center>
-          </div>
-        </div>
-      </div>
-      <div class="container content">
-        <div class="d-flex flex-column flex-sm-column flex-md-column flex-lg-row align-items-center align-items-sm-center align-items-md-center">
-          <div class="col container">
-            <div class="row">
-              <div class="col-12 container">
-                <div class="row">
-                  <div class="col-12">
-                    <p class="content_head text-SSaR">
-                       Секреты Алтайской природы 
-                      
-                      – для здоровья каждого!
-                    </p>
-                  </div>
+      <div class="products">
+        <div class="container">   
+          <div class="d-flex flex-column flex-sm-column flex-md-column align-items-center align-items-sm-center align-items-md-center flex-lg-row products__block">
+            <div class="col container">   
+              <div class="d-flex flex-column flex-sm-column flex-md-column align-items-center align-items-sm-center align-items-md-center flex-lg-row">
+                <div class="creams"><a href=""> <img src="img/Products/Bals_massag_270x268.jpg"></a>
+                  <p class="text-SSaSb">Бальзам для массажа тела </p>
+                  <p class="text-SSaI">Cнимает напряжение, устраняет скованность движений  </p>
                 </div>
-                <div class="row">
-                  <div class="col-12">
-                    <p class="content_bottom text-SSaR">
-                       Именно этот принцип лежит в основе серии 
-                      
-                      Быстрая помощь 112. Уникальные растения, настоящие 
-                      
-                      сокровища Алтайской природы, веками использовались 
-                      
-                      для сохранения здоровья, молодости, красоты и 
-                      
-                      долголетия. Сочетая в себе научный подход с 
-                      
-                      традиционными рецептами, продукты серии 
-                      
-                      обеспечивают высокую эффективность и видимый 
-                      
-                      результат!
-                    </p>
-                  </div>
+                <div class="creams"><a href=""> <img src="img/Products/Gel_oxlag_razogrev_270x268.jpg"></a>
+                  <p class="text-SSaSb">Гель двойного действия охлаждающе-разогревающий  </p>
+                  <p class="text-SSaI">При напряжении и усталости в мышцах </p>
                 </div>
               </div>
             </div>
-            <div class="row details"> 
-              <div class="col-3"> 
-                <p class="text-SSaR"> <a href="cataloge.html"> Подробнее </a></p>
-              </div>
-              <div class="col-9"> <img src="img/arrow_green.jpg" alt=""></div>
+            <div class="col quick-help">                           
+              <p class="text-SSaR title">«112 Быстрая помощь»  </p>
+              <p class="text-SSaI title-bottom">Россия, Алтай</p>
+              <p class="text-SSaR text">
+                Серия органических средств для восстановления кожи после ушибов, снятия болей суставов, ухода за телом. В составах гелей и кремов используются  такие ингредиенты, как бадяга, эфирные масла лекарственных растений (ромашка, арника, эвкалипт) и многие другие натуральные растения Алтайских лесов. Сбалансированная формула позволяет добиться выраженного положительного эффекта при курсовом использовании.</p>
             </div>
           </div>
-          <div class="col secret-nature-img"><img src="img/pose-vernis-mains-pieds.jpg" alt=""></div>
         </div>
       </div>
     </main>
