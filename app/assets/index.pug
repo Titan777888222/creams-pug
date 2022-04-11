@@ -1,0 +1,304 @@
+doctype html
+html(lang="en")
+    head
+        title 112organic
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(name="keywords" content="")
+        meta(name="description", content="")
+        meta(name="format-detection", content="", telephone="no")
+        // favicons
+
+        link(rel="icon" type="image/png" href="" sizes="16x16")
+        link(rel="icon" type="image/png" href="" sizes="32x32")
+        link(rel="icon" type="image/png" href="" sizes="96x96")
+        link(rel="apple-touch-icon" sizes="152x152" href="")
+        //favicon 
+
+        link(href="css/application.css" rel="stylesheet")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css")
+        script(src="https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js" defer)
+        script(src="https://code.jquery.com/jquery-3.6.0.min.js")
+    body 
+        // Begin header 
+        header.header-line-bottom
+            div.container.header
+                div.row
+                    div.col-4.col-md-3.logo
+                        a(href="index.html")
+                            img.header__logo(src="img/logo.jpg", alt="Logo")
+                        
+                    div.col-8.header__navigation.container.text-SSaSb
+                        div.row
+                            |
+                            |
+                            a.col-2.header__navigation_first(href="catalog.html") 
+                                b КАТАЛОГ
+                            |
+                            | 
+                            a.col-3(href="aboutcomp.html")
+                                b О  КОМПАНИИ
+                            |
+                            |
+                            a.col-3(href="cart.html")
+                                b ГДЕ КУПИТЬ
+                            |
+                            |
+                            a.col-2(href="cart.html")
+                                b ОТЗЫВЫ
+                            |
+                            | 
+                            a.col-2(href="aboutcomp.html")
+                                b.header__navigation-last  КОНТАКТЫ
+                .header-burger
+                    span
+                .header__burger_menu.text-SSaSb
+                    a.drop-down-menu(href="cataloge.html") 
+                        b КАТАЛОГ
+                    
+                    a.drop-down-menu(href="aboutcomp.html")
+                        b О  КОМПАНИИ
+                    
+                    a.drop-down-menu(href="cart.html")
+                        b ГДЕ КУПИТЬ
+                    
+                    a.drop-down-menu(href="cart.html")
+                        b ОТЗЫВЫ
+                    
+                    a.drop-down-menu(href="aboutcomp.html")
+                        b  КОНТАКТЫ        
+
+        main
+            .swiper
+                center.swiper-wrapper 
+                    .slider.swiper-slide
+                        img(src="img/img_slid_1.jpg" alt="img_slid_1") 
+                        div.slider__advertising
+                            p.text-SSaR 
+                                | 1 // Интенсивный 
+                                |
+                                | антицеллюлитный
+                                | 
+                                | крем для тела 
+                            div.text-SSaI С эфирным маслом грейпфрута
+                            a(href="cart.html") 
+                                button.btn.text-SSaSb.viewModal ПОДРОБНЕЕ
+                            #modal.modal(style="display:none;width:30%;...")
+                                button.closeMe(style="float:right") X
+                                p
+                                    p
+                                        img(src="img/pose-vernis-mains-pieds.jpg" alt="")
+                                    p.text-SSaR Именно этот принцип лежит в основе серии. Быстрая помощь 112. 
+                                        br 
+                                        |Уникальные растения, настоящие сокровища Алтайской природы, 
+                                        br
+                                        | веками использовались для сохранения здоровья, молодости, 
+                                        br
+                                        |красоты и долголетия. Сочетая в себе научный подход с 
+                                        br
+                                        | традиционными рецептами, продукты серии обеспечивают высокую эффективность и видимый 
+                                        br
+                                        | результат!
+                    .slider.swiper-slide
+                        img(src="img/img_slid_1.jpg" alt="img_slid_1") 
+                        div.slider__advertising
+                            p.text-SSaR 
+                                | 2 // Интенсивный 
+                                |
+                                | антицеллюлитный
+                                | 
+                                | крем для тела 
+                            div.text-SSaI С эфирным маслом грейпфрута
+                            a(href="cart.html") 
+                                button.btn.text-SSaSb.viewModal ПОДРОБНЕЕ
+                            #modal.modal(style="display:none;width:30%;...")
+                                button.closeMe(style="float:right") X
+                                p
+                                    p
+                                        img(src="img/pose-vernis-mains-pieds.jpg" alt="")
+                                    p.text-SSaR Именно этот принцип лежит в основе серии. Быстрая помощь 112. 
+                                        br 
+                                        |Уникальные растения, настоящие сокровища Алтайской природы, 
+                                        br
+                                        | веками использовались для сохранения здоровья, молодости, 
+                                        br
+                                        |красоты и долголетия. Сочетая в себе научный подход с 
+                                        br
+                                        | традиционными рецептами, продукты серии обеспечивают высокую эффективность и видимый 
+                                        br
+                                        | результат!
+                    .slider.swiper-slide
+                        img(src="img/img_slid_1.jpg" alt="img_slid_1") 
+                        div.slider__advertising
+                            p.text-SSaR 
+                                | 3 // Интенсивный 
+                                |
+                                | антицеллюлитный
+                                | 
+                                | крем для тела 
+                            div.text-SSaI С эфирным маслом грейпфрута
+                            a(href="cart.html") 
+                                button.btn.text-SSaSb.viewModal ПОДРОБНЕЕ
+                            #modal.modal(style="display:none;width:30%;...")
+                                button.closeMe(style="float:right") X
+                                p
+                                    p
+                                        img(src="img/pose-vernis-mains-pieds.jpg" alt="")
+                                    p.text-SSaR Именно этот принцип лежит в основе серии. Быстрая помощь 112. 
+                                        br 
+                                        |Уникальные растения, настоящие сокровища Алтайской природы, 
+                                        br
+                                        | веками использовались для сохранения здоровья, молодости, 
+                                        br
+                                        |красоты и долголетия. Сочетая в себе научный подход с 
+                                        br
+                                        | традиционными рецептами, продукты серии обеспечивают высокую эффективность и видимый 
+                                        br
+                                        | результат!
+            .container
+                .d-flex.flex-column-reverse.flex-sm-column-reverse.flex-md-row.flex-lg-row.justify-content-center.justify-content-sm-center.justify-content-md-center.cataloge-slider-arrow
+                    .col.cataloge.text-SSaR Каталог продукции 
+                    .col.move-arrow-block
+                    .col
+                        div.container
+                            .d-flex
+                                .col.move-arrow-block
+                                a.col(href="")  
+                                    img.swiper-button-next(src="img/arrow_left.jpg") 
+                                a.col(href="") 
+                                    img.swiper-button-prev(src="img/arrow_wright.jpg") 
+            
+            div.products
+                .container    
+                    .d-flex.flex-column.flex-sm-column.flex-md-column.align-items-center.align-items-sm-center.align-items-md-center.flex-lg-row.products__block
+                        .col
+                            .creams
+                                center
+                                    a(href="")  
+                                        img(src="img/Products/Bals_massag_270x268.jpg")
+                                center
+                                    p.text-SSaSb Бальзам для массажа тела 
+                                    p.text-SSaI Cнимает напряжение, устраняет скованность движений  
+                        .col
+                            .creams
+                                center
+                                    a(href="")  
+                                        img(src="img/Products/Gel_oxlag_razogrev_270x268.jpg")
+                                center
+                                    p.text-SSaSb Гель двойного действия охлаждающе-разогревающий  
+                                    p.text-SSaI При напряжении и усталости в мышцах 
+                        .col
+                            .creams                        
+                                center
+                                    a(href="")  
+                                        img(src="img/Products/gel_trokserutin_270x268.jpg") 
+                                center
+                                    p.text-SSaSb Гель для ног с троксерутином  
+                                    p.text-SSaI При отечности и усталости ног
+                        .col
+                            .creams                        
+                                center
+                                    a(href="")  
+                                        img(src="img/Products/krem_anticell_270x268.jpg")
+                                center
+                                    p.text-SSaSb Интенсивный антицеллюлитный крем для тела 
+                                    p.text-SSaI C эфирным маслом грейпфрута
+            .container
+                .row
+                    .col-12                  
+                        center
+                            a(href="cataloge.html") 
+                                button.text-SSaSb.btn ВЕСЬ КАТАЛОГ 
+                                                   
+                    
+            .container.content
+                .d-flex.flex-column.flex-sm-column.flex-md-column.flex-lg-row.align-items-center.align-items-sm-center.align-items-md-center
+                    .col.container
+                            .row
+                                .col-12.container
+                                    .row
+                                        .col-12
+                                            p.content_head.text-SSaR 
+                                                | Секреты Алтайской природы 
+                                                |
+                                                | – для здоровья каждого!
+                                    .row
+                                        .col-12
+                                            p.content_bottom.text-SSaR 
+                                                | Именно этот принцип лежит в основе серии 
+                                                |
+                                                | Быстрая помощь 112. Уникальные растения, настоящие 
+                                                |
+                                                | сокровища Алтайской природы, веками использовались 
+                                                |
+                                                | для сохранения здоровья, молодости, красоты и 
+                                                |
+                                                | долголетия. Сочетая в себе научный подход с 
+                                                |
+                                                | традиционными рецептами, продукты серии 
+                                                |
+                                                | обеспечивают высокую эффективность и видимый 
+                                                |
+                                                | результат!
+                            .row.details 
+                                .col-3 
+                                    p.text-SSaR 
+                                        a(href="cataloge.html")  Подробнее 
+                                .col-9 
+                                    img(src="img/arrow_green.jpg" alt="")   
+                    .col.secret-nature-img
+                        img(src="img/pose-vernis-mains-pieds.jpg" alt="")
+        footer    
+            .container
+                .d-flex.flex-column.flex-sm-column.flex-md-column.flex-lg-row.justify-content-center.justify-content-sm-center.justify-content-md-center
+                    .col
+                        .container 
+                            .d-flex.flex-column.justify-content-center.our-inform
+                                p.text-SSaR 
+                                    | Наш адрес: 105082, РФ, г. Москва, 
+                                    br
+                                    | Переведеновский пер., д.13, стр. 23, пом. 3
+                                    br 
+                                    | 
+                                    br
+                                    | Тел.: 7 (495) 973-1-112
+                                .text-SSaREn Email: 
+                                    span info@112organic.ru 
+                    .col.footer_menu
+                        .container
+                            .d-flex.flex-column.justify-content-center.justify-content-sm-center.justify-content-md-end.justify-content-xl-end
+                                p.text-SSaSb Каталог продукции                        
+                                p.text-SSaSb О компании 
+                                p.text-SSaSb Где купить 
+                                p.text-SSaSb Отзывы
+                                p.text-SSaSb Контакты  
+                    .col
+                        .container
+                            .d-flex.flex-column
+                                p.text-SSaSb Мы в социальных сетях 
+                                .container
+                                    .d-flex
+                                        a
+                                            img.col.social-networks(src="img/SocialNetworks/facebook.jpg" alt="")
+                                        a
+                                            img.col.social-networks(src="img/SocialNetworks/instagram.jpg" alt="") 
+                                        a
+                                            img.col.social-networks(src="img/SocialNetworks/telegram.jpg" alt="")  
+                                        a
+                                            img.col.social-networks(src="img/SocialNetworks/vk.jpg" alt="")  
+                                        a
+                                            img.col.social-networks(src="img/SocialNetworks/youtube.jpg" alt="")
+            .container
+                .row.row-cols-2.creation
+                    .col.col-sm-7.col-md-8.text-SSaR © 2019 - 2022 г. 112 Органик 
+                   
+                    .col.col-sm-4.col-md-4
+                        .text-SSaR.site-creation(style="color:#018D3C;") Создание сайта 
+                        .text-SSaREn.site LogicStudio.Ru 
+
+        script(src="js/application.js" defer)
+        
+            

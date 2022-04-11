@@ -2,13 +2,15 @@
 
 const gulp = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
-const concat = require('gulp-concat');const autoprefixer = require('autoprefixer');
-const postcss = require('gulp-postcss');const browserSync = require('browser-sync').create();
+const concat = require('gulp-concat');
+const autoprefixer = require('autoprefixer');
+const postcss = require('gulp-postcss');
+const browserSync = require('browser-sync').create();
 const del = require('del');
 const pug = require('gulp-pug');
 
 gulp.task('pug', function(){
-    return gulp.src('app/*.pug')
+    return gulp.src(['app/assets/*.pug'])
     .pipe(pug({
         pretty: true
     }))
@@ -38,20 +40,24 @@ gulp.task('assets', function(){
        .pipe(gulp.dest('public'))
     });
 
-gulp.task('build', gulp.series('clean', gulp.parallel('styles', 'scripts', 'assets')));
+gulp.task('build', gulp.series('clean', gulp.parallel('styles', 'scripts', 'assets', 'pug')));
 
 gulp.task('watch', function(){
      gulp.watch('app/scss/**/*.*', gulp.series('styles'));
      gulp.watch('app/js/**/*.*', gulp.series('scripts'));
      gulp.watch('app/assets/**/*.*', gulp.series('assets'));
-     gulp.watch('app/*.pug', gulp.parallel('pug'));
+     gulp.watch('public/*.pug', gulp.parallel('pug'));
+     
 });
 
-gulp.task('serve', function(){    browserSync.init({
-       server: 'public'
- });
+    gulp.task('serve', function(){    
+        browserSync.init({
+        server: 'public'
+    });
 
-browserSync.watch('public/**/*.*').on('change', browserSync.reload);});
+    browserSync.watch('public/**/*.*').on('change', browserSync.reload);
+});
+
 
 gulp.task('dev', gulp.series('build', gulp.parallel('watch', 'serve')));
 

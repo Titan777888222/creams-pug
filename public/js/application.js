@@ -361,6 +361,20 @@
 }(jQuery));
 
 'use strict';
+
+/* import Swiper from 'swiper';
+
+const slid = new Swiper('.swiper', {
+        
+    direction: 'vertical',
+    loop: true,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+}); 
+slid() */
+
 $(document).ready(function(){
     $('.header-burger').click(function(event){
         $('.header__burger_menu, .header-burger').toggleClass('active');
@@ -413,3 +427,9 @@ $(function(){
     });
     
     });
+
+    
+    const slider = () =>{
+        console.log("slider");
+    }
+    slider()
