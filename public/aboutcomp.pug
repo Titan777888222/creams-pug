@@ -72,11 +72,11 @@ html(lang="en")
             .container 
                 .row
                     .col.links 
-                        a.text-SSaR(href="") Главная
-                        a.text-SSaR(href="") | Контакты
-            .container
+                        a.text-SSaR(href="index.html") Главная
+                        a.text-SSaR(href="aboutcomp.html") | Контакты
+            .container.contacts-blocks-info
                 .d-flex.flex-column.flex-sm-column.flex-md-row.flex-lg-row
-                    .col.col-xs-12.col-sm-12.col-md-6(style="margin-right:-15px;")
+                    .col.col-xs-12.col-sm-12.col-md-6.title-contacts(style="margin-right:-15px;")
                         .header-line-bottom.contacts.text-SSaR.contacts-block(style="font-size:36px;" ) Контакты 
                         .contact-info
                             .col.col-sm-8
@@ -94,7 +94,7 @@ html(lang="en")
                                     |Отзывы по продукции и пожелания 
                                     |просим направлять наш 
                                 span.text-SSaREn e-mail: info@112organic.ru 
-                    .col.col-xs-12.col-sm-12.col-md-6(style="margin-left:-15px;")
+                    .col.col-xs-12.col-sm-12.col-md-6.feedback
                         .header-line-bottom.contacts.text-SSaR.contacts-block(style="font-size:36px;") Обратная связь                
                         .col.col-sm-8
                             form.form(autocomplete="off" action='email.php' method='post')

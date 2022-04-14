@@ -3219,9 +3219,6 @@ table {
   line-height: 24px;
   margin-bottom: 0; }
 
-/* .col-6{
-    padding-left: 0;
-} */
 .text-SSaREn {
   font-size: 16px;
   line-height: 24px;
@@ -3238,7 +3235,8 @@ p.text-SSaSb {
   .col-4.site-creation .site {
     color: #000; }
 
-div.col.our-inform {
+.our-inform {
+  margin-top: 10px;
   height: 150px; }
 
 /*__/ADAPTIVE/__*/
@@ -3248,13 +3246,10 @@ div.col.our-inform {
 } */
 @media (max-width: 992px) {
   .col {
-    margin-left: 10px;
-    /*  display: block; */ }
+    margin-left: 10px; }
   .col-5 {
     max-width: none; }
   a img {
-    /* width: 20px;
-    height: 20px; */
     margin-top: 5px; }
   .creation {
     margin-top: 20px; }
@@ -3302,26 +3297,31 @@ div.col.our-inform {
 
 .modal {
   background: #FAF7F7;
-  border: 2px solid #DE1921;
-  border-radius: 5px; }
+  border: solid #DE1921;
+  border-radius: 5px;
+  border-width: 2px 2px 1px 1px; }
 
 .modal p {
   margin: 0 auto;
-  padding: 10px; }
-  .modal p img {
-    padding: 10px; }
-  .modal p p {
-    padding: 10px; }
+  padding: 20px;
+  /* img {
+      padding:10px;
+    } */
+  /* p{
+      padding:10px;
+    } */ }
+  .modal p .title-modalWindow {
+    padding: 30px; }
 
 .closeMe {
   margin: 5px 5px 0 0;
   border-radius: 50%;
-  border: 0.5px solid #DE1921;
-  width: 15px;
-  height: 15px;
+  width: 30px;
+  height: 30px;
   background-color: #444444;
   color: #FAF7F7;
-  font-size: 10px; }
+  font-size: 18px;
+  /* padding: 5px; */ }
 
 .col-8 {
   padding-left: 0px; }
@@ -3443,6 +3443,9 @@ div.col.quick-help {
   color: #333333;
   margin-bottom: 20px; }
 
+.col.feedback {
+  margin-left: -15px; }
+
 @media (max-width: 1200px) {
   .img-ingredients {
     height: 60px; } }
@@ -3455,7 +3458,8 @@ div.col.quick-help {
   .move-arrow-block {
     display: none; }
   .title-ingredients {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    margin-left: 40px; }
   .img-ingredients {
     height: 40px; }
   .quick-help {
@@ -3469,14 +3473,20 @@ div.col.quick-help {
     display: none; } }
 
 @media (max-width: 768px) {
+  .title-contacts {
+    margin-left: -20px;
+    margin-top: 15px;
+    margin-right: 0px; }
+  .title-ingredients {
+    margin-left: 140px; }
   .slider img {
     height: 280px; }
   .cataloge {
     margin-top: 20px; }
   .img-ingredients {
     height: 65px; }
-  .title .text-SSaR {
-    line-height: 45px; }
+  div.col.quick-help .text-SSaR.title {
+    line-height: 32px; }
   .flex-sm-colomn {
     height: 400px; }
   .ingredients {
@@ -3484,6 +3494,14 @@ div.col.quick-help {
     width: 380px; } }
 
 @media (max-width: 577px) {
+  .col.feedback {
+    margin-left: 0px; }
+  .contacts-blocks-info {
+    margin-left: -98px; }
+  .links, .col.links {
+    margin-left: 15px; }
+  .title-ingredients {
+    margin-left: 107px; }
   .col {
     margin-left: 0; }
   .col-sm-12 {
@@ -3491,17 +3509,21 @@ div.col.quick-help {
   .ingredients {
     height: 140px;
     width: 360px; }
-  /* .img-ingredients{
-	
-	height: 85px;	
-  width: 85px;
-	} */ }
+  /*  */ }
 
 @media (max-width: 576px) {
+  .title-redPepper {
+    margin-bottom: 28px; }
   .slider img {
     height: 230px; } }
 
+@media (max-width: 482px) {
+  .details-arrow {
+    display: none; } }
+
 @media (max-width: 420px) {
+  .title-ingredients {
+    margin-left: 80px; }
   .slider img {
     height: 150px; }
   .img-ingredients {
