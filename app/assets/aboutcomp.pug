@@ -97,17 +97,17 @@ html(lang="en")
                     .col.col-xs-12.col-sm-12.col-md-6.feedback
                         .header-line-bottom.contacts.text-SSaR.contacts-block(style="font-size:36px;") Обратная связь                
                         .col.col-sm-8
-                            form.form(autocomplete="off" action='email.php' method='post')
+                            form.form(autocomplete="off" name="contact" method='post' netlify )
                                 .about-you
                                     div.form-lines-bottom 
                                         label.text-SSaR(for="") Представьтесь                          
                                         input.text-SSaR(type="text" name='username' required)
                                     div.form-lines-bottom
                                         label.text-SSaR(for="") Контактный телефон                          
-                                        input.text-SSaR(type="text" name='usernimber' required)
+                                        input.text-SSaR(type="text" name='usernumber' required)
                                     div.form-lines-bottom
                                         label.text-SSaREn(for="") E-mail                          
-                                        input.text-SSaR(type="text" name='username' required)
+                                        input.text-SSaR(type="email" name='username' required)
                                     div.form-lines-bottom
                                         label.text-SSaR(for="") Текст сообщения                          
                                         input.text-SSaR(type="text" name='username' required)
